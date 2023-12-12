@@ -1,0 +1,31 @@
+#laun{
+    width: 7.5rem;
+    border: 1px solid rgba(255, 251, 251, 0.804);
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    height: 1.3rem;;
+    
+}
+#nlogo{
+    padding: 1px;
+    height: 2.5rem;
+    width: 9rem;
+}
+#select{
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+#select:focus{
+    outline: none ;
+}
+
+#select-laun{
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+

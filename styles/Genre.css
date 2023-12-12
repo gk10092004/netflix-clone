@@ -1,0 +1,78 @@
+.genreCard{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    overflow-x: auto;
+    scroll-snap-type: x;
+    scroll-behavior: smooth;
+}
+section::-webkit-scrollbar{
+    display: none;
+  }
+.genreName{
+    margin: 1rem 2.5rem 0rem 2.5rem;
+    text-align: left;
+}
+.genreMovies{
+    display: flex;
+    gap: 1rem;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.movies{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.movies:hover{
+    transform: scale(1.05);
+}
+.moviesSize{
+    width: 18.5rem;
+    height: 10rem;
+}
+.moviesName{
+    text-align: center;
+    margin: 0.5rem 0rem;
+}
+
+#blurGcard{
+    filter: blur(15px);
+}
+#joinNowWatch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25rem;
+    
+}
+#joinContant{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45rem;
+}
+#paraContact{
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.Gjoin{
+    color: white;
+    text-decoration: none;
+}
+
+.Gjoindiv{
+    border: 1px solid rgba(255, 251, 251, 0.804);
+    padding: 0.6rem 1.3rem;
+    border-radius: 4px;
+    display: flex;
+    background-color: red;
+    border: none;
+    font-size: 1.3rem;
+    
+}

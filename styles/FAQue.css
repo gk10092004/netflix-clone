@@ -1,0 +1,41 @@
+.queAns{
+    margin-bottom: 10px;
+}
+.questionBox{
+    margin-bottom: 2px;
+    width: 70vw;
+    background-color: rgb(40, 39, 39);
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+.quebox:hover{
+    cursor: pointer;
+}
+.que{
+    font-size: 1.9rem;
+    font-weight: 500;
+    padding-right: 1rem;
+}
+.answ{
+    display: none;
+    flex-direction: column;
+    row-gap: 2.5rem;
+}
+
+/* mobile screen */
+  
+@media screen and (max-width:799px) {
+    .questionBox{
+        width: 70vw;
+    }
+    .que{
+        font-size: 1.2rem;
+    }
+    #pcbtn{
+        width:1rem ;
+        height:1rem ;
+        font-weight: 500;
+    }
+    
+  }

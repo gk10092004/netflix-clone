@@ -1,0 +1,36 @@
+.faq{
+    margin-top: 8px;
+    min-height: 80vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.allque{
+    display: flex;
+    flex-direction: column;
+}
+.faqHead{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.margin{
+    margin: 10px 0px;
+}
+
+
+/* mobile screen */
+  
+@media screen and (max-width:799px) {
+    .faqHead{
+        font-size: 1.9rem;
+    }
+    .allque{
+        display: flex;
+        align-items: center;
+    }
+  }

@@ -1,0 +1,77 @@
+.mainPart2{
+    margin-top: 8px;
+    height: 80vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mp2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    
+}
+.mp2left{
+    width: 40vw;
+}
+.TVdec{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.enjoyTV{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+/* decktop screen */
+@media screen and (min-height:799px) {
+    .mainPart2{
+        height: 60vh;
+    }    
+}
+ 
+  /* mobile screen */
+  
+  @media screen and (max-width:799px) {
+    .mainPart2{
+        height: 85vh;
+        padding-bottom: 8vh;
+    }
+    .mp2{
+        display: flex;
+        flex-direction: column;
+    }
+    .mp2left{
+        width: 90vw;
+        order: 1;
+    }
+    .mp2right{
+        order: 2;
+    }
+    
+    .TVdec{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .enjoyTV{
+        text-align: center;
+        font-size: 2rem;
+
+        
+    }
+    #cardImg{
+        width: 22rem;
+        height: 15rem;
+    }
+  }
+  /* for tablet and big screen */
+
+@media screen and (min-height:1023px) {
+    .mainPart2{
+        height: 40vh;
+    } 
+}

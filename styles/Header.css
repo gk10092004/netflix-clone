@@ -1,0 +1,80 @@
+#header{
+    margin: 0px 50px;
+    padding: 10px 0px;
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    position: absolute;
+    width: 90vw;
+    color: white;
+    
+}
+.headerbtn{
+    display: flex;
+    gap: 2vw;
+}
+
+#laun,#login{
+    border: 1px solid rgba(255, 251, 251, 0.804);
+    padding: 6px 10px;
+    border-radius: 5px;
+    display: flex;
+    
+}
+#login{
+    background-color: red;
+    border: none;
+}
+#nlogo{
+    padding: 1px;
+    height: 2.5rem;
+    width: 9rem;
+}
+#select{
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+#select:focus{
+    outline: none ;
+}
+
+#select-laun{
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+#loginLink{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/* mobile screen */
+
+@media screen and (max-width:799px) {
+    #header{
+        margin: 0px;
+        padding: 20px 10px;
+        height: 2rem;
+        width: 90vw;        
+    }
+    .mainPageTrans{
+        display: none;
+    }
+    
+    
+  }
+
+  /* for tablet and big screen */
+
+@media screen and (min-height:1023px) {
+    .mainPageTrans{
+        display: block;
+    } 
+}

@@ -1,0 +1,400 @@
+.loginPage{
+    min-height: auto;
+    background-color: rgb(188, 0, 0);
+}
+.bgl{
+    position: absolute;
+    width: 100vw;
+    height: 180vh;
+    background:linear-gradient(to bottom right, rgba(0, 0, 0, 0.776),rgba(0, 0, 0, 0.489),rgba(0, 0, 0, 0.884));
+}
+#demo{
+    width: 100vw;
+    height: 180vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.642),rgba(0, 0, 0, 0.345),rgba(0, 0, 0, 0.623));
+    position: absolute;
+    bottom: -80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 6rem;
+}
+#netf{
+    position: absolute;
+    z-index: 1;
+}
+/* login area */
+#loginArea{
+    padding: 1rem 5rem 5rem 5rem; 
+    background-color: rgba(0, 0, 0, 0.623);
+}
+#innerLogin{
+    color: white;
+    height: 90vh;
+    width: 25vw;
+    border-radius: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.inData{
+    border: none;
+    height: 3rem;
+    padding-left: 1rem ;
+    font-size: larger;
+    border-radius: 0.2rem;
+    background-color: rgb(54, 54, 54);
+    color: white;
+}
+input:focus{
+    outline: none;
+}
+#signInBtn{
+    font-size: larger;
+    height: 3rem;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+button:focus{
+    outline: none;
+    border: none;
+}
+#signUpNowText{
+    margin-bottom: -1.7rem;
+    color: rgb(116, 116, 116);
+}
+#signUpNow{
+    text-decoration: none;
+    color: white;
+}
+#signUpNow:hover{
+    text-decoration: underline;
+}
+#rNeed{
+    margin-top: -1rem;
+    color: rgb(143, 142, 142);
+    font-size: medium;
+    display: flex;
+    justify-content: space-between;
+}
+#checkB{
+    accent-color: white;
+}
+#nHelp{
+    color: rgb(143, 142, 142);
+    text-decoration: none;
+}
+#nHelp:hover{
+    text-decoration: underline;
+}
+#learnMoreText{
+    font-size: small;
+    color: rgb(146, 145, 145);
+}
+#learnMore{
+    text-decoration: none;
+    color: rgb(0, 145, 255);
+}
+#learnMore:hover{
+    text-decoration: underline;
+}
+
+/* loginSt1 */
+
+.loginSt1{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+#loginSt1Head{
+    padding: 0rem 2rem;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    color: white;
+    
+}
+.loginSt1Headerbtn{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.loginSt1Login{
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 0.4rem 1rem;
+    color: rgb(60, 60, 60);
+    border-radius: 2px;
+    display: flex;
+
+    
+}
+#loginSt1logo{
+    padding: 0.5rem;
+    height: 3.5rem;
+    width: 11rem;
+}
+
+.loginSt1Link{
+    color: white;
+    text-decoration: none;
+}
+
+.simpleContainer{
+    display: flex;
+    justify-content: center;
+}
+.loginSt1Form{
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.loginSt1Para{
+    font-size: 1.2rem;
+}
+.loginSt1Enter{
+    margin: 0rem;
+}
+.loginSt1Head{
+    margin-top: 0rem;
+    display: inline;
+}
+
+.loginSt1EmailData{
+    font-weight: 700;
+    color: rgb(65, 65, 65);
+    margin: -1rem 0rem 1rem 0rem;
+}
+
+.loginSt1PassText{
+    border: 1px solid rgb(143, 143, 143);
+    border-radius: 3px;
+    font-size: 1.2rem;
+    padding: 1rem 0.5rem;
+}
+.loginSt1Pass{
+    text-decoration: none;
+    margin: 1rem 0rem;
+    color: rgb(0, 121, 190);
+}
+.loginSt1Pass:hover{
+    text-decoration: underline;
+}
+
+.loginSt1Next{
+    border-radius: 0.2rem;
+    background-color: rgb(220, 5, 5);
+    cursor: pointer;
+    text-align: center;
+}
+#step1Next{
+    border: none;
+    padding: 1rem 0rem;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+
+}
+.loginSt1Next:hover{
+    background-color: rgb(255, 0, 0);
+}
+/* loginSt2 */
+.loginSt2Container{
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+}
+.loginSt2Para{
+    font-size: 1.2rem;
+    text-align: center;
+}
+.checkcirclebox{
+    text-align: center;
+    padding: 5rem 0rem 0rem 0rem;
+}
+.checkcircle{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.St2head{
+    margin: 0rem;
+    text-align: center;
+}
+.checkbox{
+    width: 1.9rem;
+    height: 1.9rem;
+}
+.st2ul li{
+    list-style: none;
+    font-size: 1.3rem;
+    display: flex;
+    gap: 0.5rem;
+    margin: 1rem 0rem;
+}
+
+.loginFooter{
+    color: rgb(121, 121, 121);
+    padding: 0.5rem 0rem;
+    background-color: rgb(231, 231, 231);
+}
+
+
+
+
+
+
+
+/* login footer  */
+
+#lfoot{
+    height: 40vh;
+    width: 100vw;   
+    background-color: rgba(0, 0, 0, 0.623);
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    color: rgb(117, 117, 117);
+}
+.lfLink{
+    margin: 2rem 8rem;
+}
+.lAllLink{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1.5rem;
+    font-size: small;
+    margin-bottom: 2rem;
+}
+.lft{
+    color: rgb(117, 117, 117);
+    text-decoration: none;
+}
+.lft:hover{
+    text-decoration: underline;
+}
+
+
+
+/* desktop screen */
+
+@media screen and (min-height:799px) {
+    #learnMoreText{
+        font-size: medium;
+    }
+    #signUpNowText{
+        font-size: large;
+    }
+    .contact{
+        font-size: large;
+    }
+    .lAllLink{
+        font-size: medium;
+        
+    }
+}
+
+
+/* mobile screen */
+
+@media screen and (max-width:799px) {
+    #learnMoreText{
+        font-size: medium;
+    }
+    #signUpNowText{
+        font-size: large;
+    }
+    .contact{
+        font-size: large;
+    }
+    .lAllLink{
+        font-size: medium;
+        
+    }
+    
+    .bgl{
+        display: none;
+        height: 100vh;
+    }
+    #demo{
+        overflow-x:hidden ;
+        height: 180vh;
+        justify-content: space-between;
+        gap: 0rem;
+    
+    }
+    #loginArea{
+        width: 80vw;
+        height: 110vh;
+        border-bottom:1px solid rgb(255, 255, 255) ;
+    }
+    #innerLogin{
+        overflow-x:hidden ;
+        color: white;
+        width: 85vw;
+        border-radius: 0.3rem;
+        padding: 0rem 0.1rem; 
+        
+    }
+    .lAllLink{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .lfLink{
+        margin: 0rem 1.5rem;
+    }
+
+    #lfoot{
+        height: 60vh;
+        border-top: 1px solid rgb(255, 255, 255);
+    }
+    /* loginst1 */
+    .loginSt1{
+        height: 80vh;
+    }
+    #loginSt1Head{
+        padding: 0rem;
+    }
+    #loginSt1logo{
+        height: 1.8rem;
+        width: 5rem;
+    }
+    .loginSt1Login{
+        font-size: 1rem;
+    }
+    .simpleContainer{
+        font-family: sans-serif;
+        padding: 0.5rem 2rem;
+    }
+    .loginSt1Para{
+        font-size: 1rem;
+    }
+    .loginSt1Head{
+        font-size: 2.5rem;
+        font-family: sans-serif;
+    }
+    
+    /* loginst2 */
+
+    .checkcirclebox{
+        text-align: left;   
+    }
+    .loginSt2Para{
+        font-size: 1rem;   
+        text-align: left;
+    }
+    .St2head{
+        text-align: left;
+    }
+    
+
+}
+
+

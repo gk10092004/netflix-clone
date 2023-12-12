@@ -1,0 +1,79 @@
+.mainPart21{
+    margin-top: 8px;
+    height: 80vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+
+.mp21{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    
+}
+.mp2left1{
+    width: 40vw;
+}
+.TVdec1{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.enjoyTV1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+#cardImg1{
+    position: relative;
+    z-index: 5;
+}
+
+
+
+
+/* decktop screen */
+@media screen and (min-height:799px) {
+    .mainPart21{
+        height: 60vh;
+    }    
+}
+  /* mobile screen */
+  
+  @media screen and (max-width:799px) {
+    .mp21{
+        display: flex;
+        flex-direction: column;
+    }
+    .mp2left1{
+        width: 90vw;
+    }
+    .TVdec1{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .enjoyTV1{
+        text-align: center;
+        font-size: 2rem;
+
+        
+    }
+    #cardImg1{
+        width: 22rem;
+        height: 15rem;
+        
+    }
+  }
+
+  /* for tablet and big screen */
+
+@media screen and (min-height:1023px) {
+    .mainPart21{
+        height: 40vh;
+    } 
+}
+  
+  
