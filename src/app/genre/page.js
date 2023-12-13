@@ -9,7 +9,7 @@ import GHeader from 'components/GHeader.js'
 
 
 const page = () => {
-  const genre =[
+  const Genre =[
     {
       Name:"New in Netflix",
       ReadMore:"Read about Netflix TV shows and movies and watch bonus videos on Tudum.com."
@@ -66,24 +66,11 @@ const page = () => {
         <div id='gerneMovieContant'>Movies move us like nothing else can, whether they’re scary, funny, dramatic, romantic or anywhere in-between. So many titles, so much to experience.</div>
       </div>
       <div id="genre">
-        <GCard GName={genre[0].Name}/>
-        <GCard GName={genre[1].Name}/>
-        <GCard GName={genre[2].Name}/>
-        <GCard GName={genre[3].Name}/>
-        <GCard GName={genre[4].Name}/>
-        <GCard GName={genre[5].Name}/>
-        <GCard GName={genre[6].Name}/>
-        <GCard GName={genre[7].Name}/>
-        <GCard GName={genre[8].Name}/>
-        <GCard GName={genre[9].Name}/>
-        <GCard GName={genre[10].Name}/>
-        <GCard GName={genre[11].Name}/>
-        <GCard GName={genre[12].Name}/>
-        <GCard GName={genre[13].Name}/>
+        {Genre.map(genre => <GCard GName={genre.Name} />)}
       </div>
       <div id="blurGcard">
-        <GCard GName={genre[0].Name}/>
-        <GCard GName={genre[1].Name}/>
+        <GCard GName={Genre[0].Name}/>
+        <GCard GName={Genre[1].Name}/>
       </div>
       <div id="joinNowWatch">
         <div id="joinContant">
@@ -92,7 +79,7 @@ const page = () => {
           <Link href='/' className='Gjoin'><div className="Gjoindiv">JOIN NOW</div></Link>
         </div>
       </div>
-      <Footer  Read={genre[0].ReadMore}/>    
+      <Footer  Read={Genre[0].ReadMore}/>    
 
       
      </div>
